@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="995" height="1010" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="754" y="54" width="3" height="59" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="682" y="110" width="75" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="678" y="50" width="76" height="60" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="716" y="63">Bootstrap</text>
+	<line stroke="black" stroke-opacity="1" x1="678" y1="76" x2="754" y2="76" />
+	<line stroke="black" stroke-opacity="1" x1="678" y1="84" x2="754" y2="84" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" x="682" y="97">main()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="979" y="491" width="3" height="251" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="833" y="739" width="149" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="829" y="487" width="150" height="252" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="904" y="500">VenueComposit</text>
+	<line stroke="black" stroke-opacity="1" x1="829" y1="513" x2="979" y2="513" />
+	<line stroke="black" stroke-opacity="1" x1="829" y1="521" x2="979" y2="521" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="534">VenueComposit()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="558">addVenue()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="582">getVenues()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="606">getCapacity()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="630">getSize()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="654">getEgyConsumption()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="678">getIntroduction()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="702">isAUniqueId()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="833" y="726">getAUniqueId()</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" x="616" y="322">inst</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="616" y="341">venueComposit</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" x="388" y="549">inst</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="539" y="509">venueComposit</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="382" y="454">venues</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="860" y="307" width="3" height="107" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="654" y="411" width="209" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="650" y="303" width="210" height="108" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="755" y="316">SingletoneCvutVenueBuilder</text>
+	<line stroke="black" stroke-opacity="1" x1="650" y1="329" x2="860" y2="329" />
+	<line stroke="black" stroke-opacity="1" x1="650" y1="337" x2="860" y2="337" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="654" y="350">SingletoneCvutVenueBuilder()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" x="654" y="374">getInstance()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="654" y="398">getVenueComposit()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="649" y1="339" x2="643" y2="332" />
+	<line stroke="black" stroke-opacity="1" x1="649" y1="339" x2="642" y2="344" />
+	<line stroke="black" stroke-opacity="1" x1="622" y1="335" x2="649" y2="339" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="622" y1="305" x2="622" y2="335" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="649" y1="315" x2="622" y2="305" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="602" y="235" width="3" height="251" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="456" y="483" width="149" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="452" y="231" width="150" height="252" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="527" y="244">VenueComposit</text>
+	<line stroke="black" stroke-opacity="1" x1="452" y1="257" x2="602" y2="257" />
+	<line stroke="black" stroke-opacity="1" x1="452" y1="265" x2="602" y2="265" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="278">VenueComposit()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="302">addVenue()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="326">getVenues()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="350">getCapacity()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="374">getSize()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="398">getEgyConsumption()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="422">getIntroduction()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="446">isAUniqueId()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="456" y="470">getAUniqueId()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="606" y1="359" x2="612" y2="365" />
+	<line stroke="black" stroke-opacity="1" x1="606" y1="359" x2="612" y2="353" />
+	<line stroke="black" stroke-opacity="1" x1="649" y1="359" x2="606" y2="359" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="632" y="534" width="3" height="107" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="426" y="638" width="209" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="422" y="530" width="210" height="108" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="527" y="543">SingletoneCvutVenueBuilder</text>
+	<line stroke="black" stroke-opacity="1" x1="422" y1="556" x2="632" y2="556" />
+	<line stroke="black" stroke-opacity="1" x1="422" y1="564" x2="632" y2="564" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="426" y="577">SingletoneCvutVenueBuilder()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" x="426" y="601">getInstance()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="426" y="625">getVenueComposit()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="368" y="341" width="3" height="437" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="222" y="775" width="149" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="218" y="337" width="150" height="438" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="293" y="350">Venue</text>
+	<line stroke="black" stroke-opacity="1" x1="218" y1="363" x2="368" y2="363" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="376">id</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="400">type</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="424">eqs</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="448">size</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="472">capacity</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="496">egyConsuption</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="520">relatedIds</text>
+	<line stroke="black" stroke-opacity="1" x1="218" y1="533" x2="368" y2="533" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="546">Venue()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="570">getEqs()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="594">getSize()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="618">getCapacity()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="642">getEgyConsumption()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="666">getType()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="690">getIntroduction()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="714">setId()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="738">getId()</text>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="222" y="762">getRelatedIds()</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="421" y1="542" x2="394" y2="532" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="451" y1="430" x2="378" y2="430" />
+	<line stroke="#000000" stroke-opacity="1" x1="372" y1="430" x2="378" y2="436" />
+	<line stroke="#000000" stroke-opacity="1" x1="372" y1="430" x2="378" y2="424" />
+	<line stroke="#000000" stroke-opacity="1" x1="378" y1="436" x2="378" y2="424" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="394" y1="532" x2="394" y2="562" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="529" y1="487" x2="523" y2="493" />
+	<line stroke="black" stroke-opacity="1" x1="529" y1="487" x2="535" y2="493" />
+	<line stroke="black" stroke-opacity="1" x1="529" y1="529" x2="529" y2="487" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="372" y1="472" x2="378" y2="478" />
+	<line stroke="black" stroke-opacity="1" x1="372" y1="472" x2="378" y2="466" />
+	<line stroke="black" stroke-opacity="1" x1="451" y1="472" x2="372" y2="472" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="209" y="529">&lt;&lt;ArrayList&gt;&gt;</text>
+</g>
+<g>
+	<ellipse fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" cx="529" cy="93" rx="10" ry="10" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="529" y="116">VenueInterface</text>
+	<line stroke="black" stroke-opacity="1" x1="473" y1="129" x2="585" y2="129" />
+	<line stroke="black" stroke-opacity="1" x1="473" y1="137" x2="585" y2="137" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="295" y1="336" x2="295" y2="191" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="529" y1="230" x2="529" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="145" x2="523" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="145" x2="535" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="523" y1="151" x2="535" y2="151" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="906" y1="486" x2="906" y2="191" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="295" y1="191" x2="529" y2="191" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="906" y1="191" x2="529" y2="191" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="529" y1="191" x2="529" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="145" x2="523" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="145" x2="535" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="523" y1="151" x2="535" y2="151" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="529" y1="191" x2="529" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="145" x2="523" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="145" x2="535" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="523" y1="151" x2="535" y2="151" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="85" y1="894" x2="85" y2="120" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="42" y1="972" x2="42" y2="42" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="85" y1="120" x2="466" y2="117" />
+	<line stroke="#000000" stroke-opacity="1" x1="472" y1="117" x2="465" y2="111" />
+	<line stroke="#000000" stroke-opacity="1" x1="472" y1="117" x2="466" y2="123" />
+	<line stroke="#000000" stroke-opacity="1" x1="465" y1="111" x2="466" y2="123" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="42" y1="42" x2="532" y2="42" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="404" y="235" width="3" height="59" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="342" y="291" width="65" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="338" y="231" width="66" height="60" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="371" y="244">Kitchen</text>
+	<line stroke="black" stroke-opacity="1" x1="338" y1="257" x2="404" y2="257" />
+	<line stroke="black" stroke-opacity="1" x1="338" y1="265" x2="404" y2="265" />
+	<text font-family="Helvetica" font-size="11" fill="#000000" xml:space="preserve" x="342" y="278">Kitchen()</text>
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="359" y1="295" x2="359" y2="330" />
+	<line stroke="#000000" stroke-opacity="1" x1="359" y1="336" x2="365" y2="330" />
+	<line stroke="#000000" stroke-opacity="1" x1="359" y1="336" x2="353" y2="330" />
+	<line stroke="#000000" stroke-opacity="1" x1="365" y1="330" x2="353" y2="330" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="373" y1="230" x2="373" y2="191" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="532" y1="42" x2="529" y2="76" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="82" x2="535" y2="76" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="82" x2="523" y2="75" />
+	<line stroke="#000000" stroke-opacity="1" x1="535" y1="76" x2="523" y2="75" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="373" y1="191" x2="529" y2="191" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="#000000" stroke-opacity="1" x1="529" y1="191" x2="529" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="145" x2="523" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="529" y1="145" x2="535" y2="151" />
+	<line stroke="#000000" stroke-opacity="1" x1="523" y1="151" x2="535" y2="151" />
+</g>
+</svg>

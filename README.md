@@ -5,6 +5,9 @@
 # Methodology
  * Taking advantage of composite design pattern pattern, each building is considered as a Composite Of venues which is presented in com.spatial.nlg.VenueComposit class. This class holds an array of Venues (com.spatial.nlg.Venue) with unique ids. Each Venue can introduce connections to other venues. com.spatial.nlg.SingletoneCvutVenueBuilder is responsible for building "Cvut" imaginary building. It models Cvut as a building with 2 bathrooms and a kitchen which are all interconnected through a corridor.  
 
+# UML
+ * A class diagram UML is in spatial/docs/assets/classdiagram.png and classdiagram.svg
+
 # Dependencies, compilation and running (installation commands are for Debian-based OS)
  * Java 1.8+
 ```
