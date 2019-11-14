@@ -1,7 +1,5 @@
 package com.spatial.nlg;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author donkarlo
