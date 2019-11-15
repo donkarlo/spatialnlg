@@ -1,7 +1,7 @@
 package com.spatial.nlg;
 
 /**
- * Whatever is common between venue and venueComposits
+ * Whatever is common between Venue and VenueComposits
  * @author donkarlo
  */
 public interface VenueInterface {
@@ -17,4 +17,6 @@ public interface VenueInterface {
     public String getIntroduction();
 
     public int getId();
+    
+    public void setId (int id, VenueComposit vc);
 }

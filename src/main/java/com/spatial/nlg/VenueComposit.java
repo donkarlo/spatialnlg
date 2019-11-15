@@ -8,18 +8,18 @@ import java.util.ArrayList;
  */
 public class VenueComposit extends Venue implements VenueInterface {
 
-    private final ArrayList<Venue> venues;
+    private final ArrayList<VenueInterface> venues;
 
-    public VenueComposit(ArrayList<Venue> venues) {
+    public VenueComposit(ArrayList<VenueInterface> venues) {
         super("", null, 0, 0, 0, null);
         if (venues == null) {
-            venues = new ArrayList<Venue>();
+            venues = new ArrayList<VenueInterface>();
         }
 
         this.venues = venues;
     }
 
-    public VenueComposit addVenue(Venue venue) {
+    public VenueComposit addVenue(VenueInterface venue) {
         //If no vemueId is set for this composit, then set one for it
         if (venue.getId() == 0) {
             venue.setId(this.getAUniqueId(), this);
@@ -28,13 +28,13 @@ public class VenueComposit extends Venue implements VenueInterface {
         return this;
     }
 
-    public ArrayList<Venue> getVenues() {
+    public ArrayList<VenueInterface> getVenues() {
         return venues;
     }
 
     public int getCapacity() {
         int cap = 0;
-        for (Venue venue : this.getVenues()) {
+        for (VenueInterface venue : this.getVenues()) {
             cap += venue.getCapacity();
         }
         return cap;
@@ -42,7 +42,7 @@ public class VenueComposit extends Venue implements VenueInterface {
     
     public float getSize(){
         int size = 0;
-        for (Venue venue : this.getVenues()) {
+        for (VenueInterface venue : this.getVenues()) {
             size += venue.getSize();
         }
         return size;
@@ -50,7 +50,7 @@ public class VenueComposit extends Venue implements VenueInterface {
     
     public double getEgyConsumption(){
         int egyConsumption = 0;
-        for (Venue venue : this.getVenues()) {
+        for (VenueInterface venue : this.getVenues()) {
             egyConsumption += venue.getEgyConsumption();
         }
         return egyConsumption;
@@ -61,7 +61,7 @@ public class VenueComposit extends Venue implements VenueInterface {
         introduction += this.getSize();
         introduction += " with total capacity of " + this.getCapacity() + " people ";
         introduction += " and energy consumption of " + this.getEgyConsumption()+ " Kilowatts. Here are the details per sub-venues: ";
-        for (Venue venue : this.getVenues()) {
+        for (VenueInterface venue : this.getVenues()) {
             introduction += venue.getIntroduction();
         }
         
@@ -74,7 +74,7 @@ public class VenueComposit extends Venue implements VenueInterface {
      * @return
      */
     public boolean isAUniqueId(int id) {
-        for (Venue venue : this.getVenues()) {
+        for (VenueInterface venue : this.getVenues()) {
             if (venue.getId() == id) {
                 return false;
             }
